@@ -1,4 +1,4 @@
-function [centr]= Centr(E0) % вычисление центра тяжести падающего пучка
+function [centr]= Centr(E0) %incident beam center of gravity calculation
         [N M]=size(E0);
         full=0;
         centrmass(1:2)=0;
